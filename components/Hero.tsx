@@ -121,9 +121,9 @@ export default function Hero() {
                     className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 mb-10 sm:mb-16"
                 >
                     {[
-                        { value: "2800+", label: "заказов" },
-                        { value: "4.98", label: "рейтинг ★" },
-                        { value: "50+", label: "фабрик" },
+                        { value: "1", label: "менеджер от А до Я" },
+                        { value: "0", label: "перекупщиков" },
+                        { value: "50+", label: "фабрик напрямую" },
                     ].map((stat) => (
                         <div key={stat.label} className="group cursor-default text-center">
                             <p
