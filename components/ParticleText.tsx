@@ -97,7 +97,7 @@ export function ParticleTextEffect({
     interval = 200,
 }: Props) {
     const canvasRef = useRef<HTMLCanvasElement>(null)
-    const animRef = useRef<number>()
+    const animRef = useRef<number>(0)
     const particlesRef = useRef<Particle[]>([])
     const frameRef = useRef(0)
     const wordIdxRef = useRef(0)
